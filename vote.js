@@ -50,15 +50,32 @@ function run(){
     //     alert(number)
     //     number++;
     //   }
-      let paar=document.getElementById("text");
+      // let paar=document.getElementById("text");
 
-      paar.textContent="sahil amdev";
-      paar.style.color="red";
-      paar.style.fontSize="50px";
+      // paar.textContent="sahil amdev";
+      // paar.style.color="red";
+      // paar.style.fontSize="50px";
       
-
-      
+     
  
     }
 
+    let count=0;
+     function inc(){
+      count++;
+      let para=document.querySelector("#text")
+      para.innerHTML=count;
+
+
+
+     }
+     function dec(){
+      count--;
+      let para=document.querySelector("#text")
+      para.innerHTML=count;
+
+
+
+     }
+      
 
