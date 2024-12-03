@@ -14,13 +14,13 @@ let sub=()=>{
 
 
     if(name===""){
-        errorname.textContent="please enter the name";
+        errorname.textContent="please enter the name colen";
         errorname.style.color="red";
         errorname.style.fontSize="30px";
         return false;
     }
     else if(number===""){
-        errorname.textContent="please enter the numner";
+        errorname.textContent="please enter the number";
         errorname.style.color="red";
         errorname.style.fontSize="30px";
         return false;
