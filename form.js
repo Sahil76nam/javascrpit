@@ -14,20 +14,21 @@ let sub=()=>{
 
 
     if(name===""){
-        errorname.textContent="please enter the name colen";
+        errorname.textContent="please enter the name ";
         errorname.style.color="red";
         errorname.style.fontSize="30px";
         return false;
     }
     else if(number===""){
-        errorname.textContent="please enter the number";
-        errorname.style.color="red";
-        errorname.style.fontSize="30px";
+        errornumber.textContent="please enter the number";
+        errornumber.style.color="red";
+        errornumber.style.fontSize="30px";
         return false;
     } 
     else if(isNaN(number)){
 
         errornumber.innerHTML="please enter number only";
+
         return false;
     }
     else if(number.length!==10){
