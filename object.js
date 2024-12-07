@@ -12,6 +12,11 @@ let student={
         return`hello my name is  ${this.name}  and age is ${this.age}`//function mai "this" ka use
     }
 }
+//for(let "key value" in "objet name")
+for(let addd in student)
+{
+    console.log(student[addd])
+}
 console.log(student.name);//access
 student.gender="male";//added
 console.log(student);
