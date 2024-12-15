@@ -1,9 +1,9 @@
-//syntax of object
-// let objectName={
+syntax of object
+let objectName={
 
-//     key1:"value1",
-//     key2:"value2"
-// }
+    key1:"value1",
+    key2:"value2"
+}
 let student={
     name:"sahil",
     age: 20,
