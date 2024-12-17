@@ -15,6 +15,9 @@ function arr1(){
     console.log(fruits2.reverse)
     console.log(fruits.unshift)
     console.log('sahil'||'namdev')
+    console.log(fruits2.length)
+    console.log(fruits2)
+    fruits.pop()
 
 
 
