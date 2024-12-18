@@ -18,6 +18,16 @@ function arr1(){
     console.log(fruits2.length)
     console.log(fruits2)
     fruits.pop()
+    console.log(fruits)
+    fruits.splice(1,0,5)
+    console.log(fruits)
+    console.log(fruits.concat(fruits2));
+    console.log(fruits.length)
+    console.log(fruits2.reverse)
+    console.log(fruits.unshift)
+    console.log('sahil'||'namdev')
+    console.log(fruits2.length)
+    console.log(fruits2)
 
 
 
