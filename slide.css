@@ -1,0 +1,10 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.slide{
+    border: 1px solid black;
+    height: 300px;
+    width: 200px;
+}
