@@ -3,8 +3,26 @@
     margin: 0%;
     box-sizing: border-box;
 }
+
 .slide{
     border: 1px solid black;
     height: 300px;
     width: 200px;
+    background-color: aqua;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+}
+.slide{
+    border: 1px solid black;
+    height: 300px;
+    width: 200px;
+    background-color: aqua;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
 }

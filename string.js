@@ -17,7 +17,10 @@
 
 
 
-
+console.log(text.replace("this","hello"));//hello a sring This
+console.log(text.replace(/this/g,"hello"));//hello a sring This
+ console.log(text.replace(/this/gi,"hello"));//hello a sring hello
+console.log(text.trim());//first space and end sapce remove ho jata h
 // }
 // letsgo()
 
