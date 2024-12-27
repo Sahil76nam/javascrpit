@@ -1,0 +1,62 @@
+let fetchdata =async()=>{
+    try{
+        let url='http://localhost:3000/'
+        let res=await fetch (url,{method:"GET"})
+        let data =await res.json()
+        console.log(data);
+
+
+        let output=document.querySelector("#display")
+
+        data.map((e)=>{
+            output.innerHTML+=`
+             <tr>
+             <td>${e.Travellrename}</td>
+             <td>${e.Origen}</td>
+             <td>${e.Distination}</td>
+             <td>${e.Price}</td>
+             <td>${e.Categrey}</td>
+             <td onclick="condelete('${e.id}')>Delete</td>
+             </tr>
+    
+            `
+        }
+        )
+    }
+    catch(error){
+        console.log(error);
+    }
+}
+let condelete=(id)=>{
+    Swal.fire({
+        title: "Are you sure?",
+        text: "You won't be able to revert this!",
+        icon: "warning",
+        showCancelButton: true,
+        confirmButtonColor: "#3085d6",
+        cancelButtonColor: "#d33",
+        confirmButtonText: "Yes, delete it!"
+      }).then((result) => {
+        if (result.isConfirmed) {
+            del(id)
+          Swal.fire({
+            title: "Deleted!",
+            text: "Your file has been deleted.",
+            icon: "success"
+          });
+        }
+      });
+}
+let del=(id)=>{
+    let url='http://localhost:3000/flightticket/${id}'
+    fetch(url,{
+        method:"DELETE"
+    })
+}
+let ins=()=>{
+    let name=document.querySelector("#travellername").value;
+    let origen=document.querySelector("#from").value;
+    let distination=document.querySelector("#to").value;
+    let price=document.querySelector("#price").value;
+    let categrey=document.querySelector("#categrey").value;
+}

@@ -1,2 +1,19 @@
+{
+    "car":[
+        {
+            "carname": "Safari",
+            "carprice": 50000,
+            "carcolor": "Black",
+            "carbrand": "Tata"
 
+        },
+        {
+            "carname": "marcerdis",
+            "carprice": 50000,
+            "carcolor": "white",
+            "carbrand": "MC"
+            
+        }
+    ]
+}
   

@@ -1,0 +1,11 @@
+{
+    "flightticket":[
+        {
+            "Travellername":"sahil",
+            "Origin":"bhopal",
+            "Distination":"mumbai",
+            "Price":"3000",
+            "Categrey":"Economy"
+        }
+    ]
+}

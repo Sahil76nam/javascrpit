@@ -96,13 +96,14 @@ button{
  #ticket .select{
     display: flex;
     align-items: center;
+    gap: 4px;
     padding-left: 9cqmax;
     
     margin-top: 15vh;
  }
  .slt1{
-    border: 1px solid black;
-    width: 10vw;
+    
+    width: 11vw;
     height: 40px;
     border-radius: 5px;
     background-color: rgb(237, 237, 242); 
@@ -111,25 +112,31 @@ button{
  }
  .slt1 a{
     text-decoration: none;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     margin-left: 30px;
     color:black;
-    font-weight:bolder;
-    margin-top: 3px;
+    
+    
+    
+    
  }
  .slt2{
-    border: 1px solid black;
-    width: 12vw;
+    
+    width: 10vw;
     height: 40px;
+    border-radius: 5px;
+    background-color: rgb(237, 237, 242); 
 
  }
  .slt2 a{
     text-decoration: none;
     font-size: 1.5rem;
     margin-left: 30px;
+    color: #000;
  }
  .slt3{
-    border: 1px solid black;
+   border-radius: 5px;
+   background-color: rgb(237, 237, 242); 
     width: 15vw;
     height: 40px;
 
@@ -138,4 +145,5 @@ button{
     text-decoration: none;
     font-size: 1.5rem;
     margin-left: 30px;
+    color: #000;
  }
