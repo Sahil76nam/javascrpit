@@ -17,12 +17,14 @@ let sub=()=>{
         errorname.textContent="please enter the name ";
         errorname.style.color="red";
         errorname.style.fontSize="30px";
+        document.querySelector("name").Placeholder="enter name"
         return false;
     }
     else if(number===""){
         errornumber.textContent="please enter the number";
         errornumber.style.color="red";
         errornumber.style.fontSize="30px";
+        document.querySelector("")
         return false;
     } 
     else if(isNaN(number)){

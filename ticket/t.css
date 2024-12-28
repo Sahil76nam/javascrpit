@@ -1,0 +1,18 @@
+thead tr th{
+    background-color: aqua;
+    
+
+}
+.ticket{
+    display: flex;
+    gap: 140px;
+    
+}
+form{
+    margin-top: 20px;
+    color: blueviolet;
+    background-color:orangered;
+}
+form input{
+    color: blueviolet;
+}

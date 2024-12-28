@@ -1,0 +1,20 @@
+{
+  "flightticket": [
+    {
+      "Travellername": "sahil",
+      "Origin": "bhopal",
+      "Distination": "mumbai",
+      "Price": "3000",
+      "Categrey": "Economy",
+      "id": "593a"
+    },
+    {
+      "id": "0742",
+      "Travellername": "sahil",
+      "Origin": "bhl",
+      "Distination": "inf",
+      "Price": "3000",
+      "Categrey": "economy-class"
+    }
+  ]
+}

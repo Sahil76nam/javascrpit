@@ -4,34 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>flight ticket</title>
+    <link rel="stylesheet" href="t.css">
 </head>
 <body onload="fetchdata()">
+    <div class="ticket">
     <table border="2px" cellpadding="10px" cellspacing="10px">
-
+  
     <thead>
         <tr>
             <th>Traveller Name</th>
-            <th>From</th>
-            <th>To</th>
+            <th>Origen</th>
+            <th>Distination</th>
             <th>Price</th>
             <th>Categery</th>
             <th>Delete</th>
         </tr>
     </thead>
+
     <tbody id="display"></tbody>
     </table>
     <form >
-        Enter the Traveller Name <input type="text"  id="name">
-        Enter the origen <input type="text" id="from">
-        enter the Distination<input type="text" id="to">
-        Enter Price <input type="text" id="price">
-        choose Categery <select type="text"  id="categery">
-            <option value="1">Economy Class</option>
-            <option value="2">Buniness Class</option>
-            </select>
-            <input type="Book" onclick="return ins()">
+        Enter the Traveller Name <input type="text"  id="travellername"><br>
+        Enter the origen <input type="text" id="origen"><br>
+        enter the Distination<input type="text" id="distination"><br>
+        Enter Price <input type="text" id="price"><br>
+        choose Categery <select  id="categery">
+            <option value="economy-class">Economy Class</option>
+            <option value="business-class">Buniness Class</option>
+            </select><br>
+            <input type="submit"  onclick="return ins()" value="Book">
 
     </form>
+</div>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="t.js"></script>
 
