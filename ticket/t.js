@@ -17,6 +17,7 @@ let fetchdata =async()=>{
              <td>${e.Price}</td>
              <td>${e.Categrey}</td>
              <td onclick="condelete('${e.id}')">Delete</td>
+             <td onclick="fillform('${e.id}')">update</td>
              </tr>
     
             `
