@@ -79,3 +79,44 @@ fetch(url ,{
 
 return false;
 }
+let fillform=async(id)=>{
+    let url=`http://localhost:3000/flightticket/${id}`
+    let res=await fetch(url)
+    let data=await res.json()
+
+    let formdaata=`
+    Enter travellername <input type="text" value=${data.travellername} id="travellername1"> <br>
+     Enter origen <input type="text" value=${data.origen} id="origen1"> <br>
+      Enter distination <input type="text" value=${data.distination} id="distination"> <br>
+      Enter price <input type="text" value=${data.price} id="distination"> <br>
+      Enter categrey <input type="text" value=${data.categrey} id="distination"> <br>
+      <input type="submit" onclick="update('${data.id}')">
+      
+      
+    
+    `
+    document.querySelector("#formupdate").innerHTML=formData;
+    
+}
+let update=(id)=>{
+    let travellername=document.querySelector("#travellername1").value;
+    let origen=document.querySelector("#origen1").value;
+    let distination=document.querySelector("#distination1").value;
+    let price=document.querySelector("#price1").value;
+    let categrey=document.querySelector("#categrey1").value;
+
+    let url=`http://localhost:3000/flightticket/${id}`
+    fetch(url,{
+        method:"PUT",
+        headers:{
+            "Content-Type":"application/json"
+        },
+        body:JSON.stringify({
+            "Travellername":travellername,
+            "Origin":origen,
+            "Distination":distination,
+            "Price":price,
+            "Categrey":categrey
+        })
+    })
+}
