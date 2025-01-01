@@ -84,7 +84,7 @@ let fillform=async(id)=>{
     let res=await fetch(url)
     let data=await res.json()
 
-    let formdaata=`
+    let formdata=`
     Enter travellername <input type="text" value=${data.travellername} id="travellername1"> <br>
      Enter origen <input type="text" value=${data.origen} id="origen1"> <br>
       Enter distination <input type="text" value=${data.distination} id="distination"> <br>
@@ -95,7 +95,7 @@ let fillform=async(id)=>{
       
     
     `
-    document.querySelector("#formupdate").innerHTML=formData;
+    document.querySelector("#formdate").innerHTML=formdata;
     
 }
 let update=(id)=>{

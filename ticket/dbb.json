@@ -15,6 +15,14 @@
       "Distination": "inf",
       "Price": "3000",
       "Categrey": "economy-class"
+    },
+    {
+      "id": "2702",
+      "Travellername": "sahil",
+      "Origin": "sainkheda",
+      "Distination": "gadarwara",
+      "Price": "3000",
+      "Categrey": "business-class"
     }
   ]
 }
