@@ -1,6 +1,19 @@
-#box .string{
+ #string{
 
     background-color: aqua;
     height: 400px;
 
+} 
+ body{
+    width: 100%;
+    height: 100%;
+    background-color: blue;
+ }
+#box1{
+    height: 100px;
+    width: 200px;
+    background-color: yellow;
+    border: 1px solid black;
+    
+    
 }
