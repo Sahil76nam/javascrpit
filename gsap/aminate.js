@@ -1,4 +1,4 @@
-var intialpath="M 10 100 Q 500 100 1230 100"
+iunuhbvar intialpath="M 10 100 Q 500 100 1230 100"
 
 var finalpath="M 10 100 Q 500 100 1230 100";
 
